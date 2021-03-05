@@ -1,0 +1,4 @@
+<selector  xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+    <item android:drawable="@drawable/pink_margin" android:state_enabled="true"/>
+    <item android:drawable="@drawable/grey_margin" android:state_enabled="false"/>
+</selector>

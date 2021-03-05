@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.total.TotalFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_8"
+            android:background="@drawable/pink_margin"
+            android:backgroundTint="@color/blue_custom"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                style="@style/mediumText"
+                android:layout_margin="@dimen/margin_8"
+                android:layout_weight="1"
+                android:text="@string/total" />
+
+            <TextView
+                android:id="@+id/total"
+                style="@style/mediumText"
+                android:layout_margin="@dimen/margin_8"
+                android:layout_weight="1"
+                android:text="@string/nan" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_8"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/button_amount_filter"
+                style="@style/mediumButton"
+                android:layout_margin="@dimen/margin_8"
+                android:layout_weight="1"
+                app:icon="@drawable/ic_baseline_filter_list_24"
+                android:background="@drawable/pink_margin"
+                android:text="@string/by_amount"
+                app:backgroundTint="@color/light_pink" />
+
+            <Button
+                android:id="@+id/button_date_filter"
+                style="@style/mediumButton"
+                android:layout_margin="@dimen/margin_8"
+                app:icon="@drawable/ic_baseline_filter_list_24"
+                android:layout_weight="1"
+                android:background="@drawable/pink_margin"
+                android:text="@string/by_date"
+                app:backgroundTint="@color/light_pink" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/smallText"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_8"
+            android:background="@drawable/pink_margin"
+            android:backgroundTint="@color/yellow_custom"
+            android:gravity="center"
+            android:text="@string/record"
+            android:textAlignment="center" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_total"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8" />
+
+    </LinearLayout>
+</layout>

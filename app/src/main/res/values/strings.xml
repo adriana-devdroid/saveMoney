@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SaveMoney 365Days</string>
+    <string name="title_saving">Saving</string>
+    <string name="title_total">Total</string>
+    <string name="unknowNumber">0</string>
+    <string name="congrats">Congrats</string>
+    <string name="save">Save</string>
+    <string name="luck">Luck</string>
+    <string name="remaining_days">Remaining days:</string>
+    <string name="total">Total</string>
+    <string name="nan">NaN</string>
+    <string name="record">Record</string>
+    <string name="by_date">Date</string>
+    <string name="by_amount">Amount</string>
+    <string name="lucky_number">Lucky Number</string>
+    <string name="about_this_app">This application helps you keep track of your savings per day and the total you have saved in coins, making a fun challenge to achieve a saving of approximately 66,795 coins. \n \n
+
+The dynamic consists of choosing a random number between 1 and 365 per day and saving the corresponding amount in the bank (by bank transfer for example) or in your savings pig.\n \n
+
+For example, if the number that you got when you press the "luck" button is 50, you should save 50 coins and this number will be eliminated from the options per day. So at the end of 365 days you will know that you will have a total savings of approximately 66,795 coins. The counter resets and you can do the challenge one more time.\n \n
+
+If you want you can do the challenge with your brother or partner and get 2 or more numbers per day. the important thing is to make saving a new and fun habit.</string>
+    <string name="info">info</string>
+    <string name="about_save_money_app">About Save Money App</string>
+    <string name="completed_challenge">Congrats \nyou completed the challenge\start again</string>
+    <string name="num_365">365</string>
+
+</resources>

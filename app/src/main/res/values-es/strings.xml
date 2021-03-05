@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SaveMoney 365Days</string>
+    <string name="title_saving">Ahorra</string>
+    <string name="title_total">Total</string>
+    <string name="unknowNumber">0</string>
+    <string name="congrats">Genial</string>
+    <string name="save">Guardar</string>
+    <string name="luck">Suerte</string>
+    <string name="remaining_days">Días restantes:</string>
+    <string name="total">Total</string>
+    <string name="nan">NaN</string>
+    <string name="record">Historial</string>
+    <string name="by_date">Fecha</string>
+    <string name="by_amount">Monto</string>
+    <string name="lucky_number">Número de \n suerte</string>
+    <string name="about_this_app">Esta aplicación te ayuda a llevar un registro de tus ahorros por día y del total que llevas ahorrado en monedas haciendo un divertido reto para lograr un ahorro de aproximadamente 66,795 monedas.\n \n
+
+La dinamica consiste en elegir un numero aleatorio entre 1 y 365 por día y guardar la cantidad correspondiente en el banco(por transferencia bancaria por ejemplo) o en tu cochinito de ahorro.\n \n
+
+Por ejemplo si el número que te salió al presionar el botón "suerte" es 50 deberás ahorrar 50 monedas y este número quedará eliminado de las opciones por día. Así al finalizar los 365 días sabrás que tendras un total de ahorros de aproximadamente 66,795 monedas.El contador se reinicia y puedes hacer el reto una vez más.\n \n
+
+Si quieres puedes hacer el reto con tu hermano o pareja y obtener 2 o más numeros por día. lo importante es hacer del ahorro un nuevo y divertido habito.</string>
+    <string name="info">info</string>
+    <string name="about_save_money_app">Acerca de \nSave Money App</string>
+    <string name="completed_challenge">Felicidades \ncompletaste el reto\ncomienza de nuevo</string>
+    <string name="num_365">365</string>
+</resources>

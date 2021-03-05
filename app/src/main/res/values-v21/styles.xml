@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="defaultText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/noto_serif</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="defaultButton">
+        <item name="android:background">@drawable/button_bg_selector</item>
+        <item name="android:fontFamily">@font/noto_serif</item>
+        <item name="textAllCaps">true</item>
+        <item name="iconTint">#FFF</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="mediumButton" parent="defaultButton">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_width">140dp</item>
+    </style>
+
+    <style name="largeButton" parent="defaultButton">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">180dp</item>
+    </style>
+
+    <style name="smallText" parent="defaultText">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="mediumText" parent="defaultText">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="largeText" parent="defaultText">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="xLargeText" parent="defaultText">
+        <item name="android:textSize">50sp</item>
+    </style>
+
+    <style name="xxLargeText" parent="defaultText">
+        <item name="android:textSize">70sp</item>
+    </style>
+
+    <style name="iconImage">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+    </style>
+
+    <style name="smallImage">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="mediumImage">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+    </style>
+
+    <style name="largeImage">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+    </style>
+
+    <style name="xLargeImage">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">200dp</item>
+    </style>
+
+    <style name="xxLargeImage">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">250dp</item>
+    </style>
+
+
+    <style name="shadowText" parent="defaultText">
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowDx">1.5</item>
+        <item name="android:shadowDy">1.3</item>
+        <item name="android:shadowRadius">1.6</item>
+    </style>
+
+
+</resources>

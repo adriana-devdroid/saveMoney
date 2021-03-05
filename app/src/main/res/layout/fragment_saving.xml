@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.main.MainActivity">
+
+    <data>
+
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/button_about"
+                style="@style/smallImage"
+                android:layout_margin="@dimen/margin_16"
+                android:background="@drawable/ic_baseline_info_24"
+                android:backgroundTint="@color/green_custom"
+                android:contentDescription="@string/info"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <LinearLayout
+                android:id="@+id/layout_remaining"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_16"
+                    android:background="@drawable/pink_margin">
+
+                    <TextView
+                        style="@style/mediumText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/remaining_days" />
+
+                    <TextView
+                        android:id="@+id/text_remaining"
+                        style="@style/mediumText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_8" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/calendar_animation"
+                style="@style/smallImage"
+                android:layout_marginTop="@dimen/margin_16"
+                android:layout_marginEnd="@dimen/margin_16"
+                android:layout_marginRight="@dimen/margin_16"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/image_fireworks"
+                style="@style/mediumImage"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_fireworks"
+                android:visibility="invisible"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toTopOf="@+id/layout_cards"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layout_remaining"
+                app:layout_constraintVertical_chainStyle="packed" />
+
+            <FrameLayout
+                android:id="@+id/layout_cards"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:layout_constraintBottom_toTopOf="@+id/layout_buttons"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_fireworks">
+
+                <ImageView
+                    style="@style/xxLargeImage"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/cards2" />
+
+                <TextView
+                    android:id="@+id/text_result"
+                    style="@style/largeText"
+                    android:layout_gravity="center"
+                    android:shadowColor="@color/black"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"
+                    android:text="@string/lucky_number"
+                    android:textAlignment="center" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layout_cards">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_choose"
+                    style="@style/largeButton"
+                    android:layout_gravity="center"
+                    android:text="@string/luck"
+                    app:icon="@drawable/ic_baseline_replay_24" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_save"
+                    style="@style/largeButton"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15sp"
+                    android:background="@drawable/pink_margin"
+                    android:enabled="false"
+                    android:text="@string/save"
+                    app:icon="@drawable/ic_piggy_bank"
+                    app:iconSize="20dp" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>
