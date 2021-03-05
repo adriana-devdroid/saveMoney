@@ -6,10 +6,11 @@ The dynamic consists of choosing a random number between 1 and 365 per day and s
 
 For example, if the number that you got when you press the "luck" button is 50, you should save 50 coins and this number will be eliminated from the options per day. So at the end of 365 days you will know that you will have a total savings of approximately 66,795 coins. The counter resets and you can do the challenge one more time.
 
+# ARCHITECTURE
 
-<img src="/screens365Days/screen0.png" width="300">
-<img src="/screens365Days/screen1.png" width="300">
-<img src="/screens365Days/screen2.png" width="300">
-<img src="/screens365Days/screen3.png" width="300">
-<img src="/screens365Days/screen0.png" width="300">
-<img src="/screens365Days/screen5.png" width="300">
+MVVM architecture, a room database, databinding, livedata and coroutinas are used for the creation of this application.
+
+
+<img src="/screens365Days/screen0.png" width="300"><img src="/screens365Days/screen1.png" width="300">
+<img src="/screens365Days/screen2.png" width="300"><img src="/screens365Days/screen3.png" width="300">
+<img src="/screens365Days/screen4.png" width="300"><img src="/screens365Days/screen5.png" width="300">
