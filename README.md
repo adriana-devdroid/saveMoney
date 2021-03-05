@@ -10,7 +10,7 @@ For example, if the number that you got when you press the "luck" button is 50, 
 
 MVVM architecture, a room database, databinding, livedata and coroutinas are used for the creation of this application.
 
-<img src="/screens365Days/mvvm-architecture-app-in-android" width="500">
+<img src="/screens365Days/mvvm-architecture-app-in-android.png" width="500">
 
 <img src="/screens365Days/screen0.png" width="300"><img src="/screens365Days/screen1.png" width="300"><img src="/screens365Days/screen2.png" width="300">
 <img src="/screens365Days/screen3.png" width="300"><img src="/screens365Days/screen4.png" width="300"><img src="/screens365Days/screen5.png" width="300">
